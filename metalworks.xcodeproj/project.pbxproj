@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043269C016892475003407D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043269BF16892475003407D4 /* UIKit.framework */; };
+		043269C216892475003407D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043269C116892475003407D4 /* Foundation.framework */; };
+		043269C416892475003407D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043269C316892475003407D4 /* CoreGraphics.framework */; };
+		043269CA16892475003407D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 043269C816892475003407D4 /* InfoPlist.strings */; };
+		043269CC16892475003407D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 043269CB16892475003407D4 /* main.m */; };
+		043269D016892475003407D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043269CF16892475003407D4 /* AppDelegate.m */; };
+		043269D316892475003407D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043269D216892475003407D4 /* ViewController.m */; };
+		043269D616892475003407D4 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043269D416892475003407D4 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		043269BB16892475003407D4 /* metalworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = metalworks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		043269BF16892475003407D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		043269C116892475003407D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		043269C316892475003407D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		043269C716892475003407D4 /* metalworks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "metalworks-Info.plist"; sourceTree = "<group>"; };
+		043269C916892475003407D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		043269CB16892475003407D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		043269CD16892475003407D4 /* metalworks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "metalworks-Prefix.pch"; sourceTree = "<group>"; };
+		043269CE16892475003407D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		043269CF16892475003407D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		043269D116892475003407D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		043269D216892475003407D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		043269D516892475003407D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		043269B816892475003407D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043269C016892475003407D4 /* UIKit.framework in Frameworks */,
+				043269C216892475003407D4 /* Foundation.framework in Frameworks */,
+				043269C416892475003407D4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043269B016892474003407D4 = {
+			isa = PBXGroup;
+			children = (
+				043269C516892475003407D4 /* metalworks */,
+				043269BE16892475003407D4 /* Frameworks */,
+				043269BC16892475003407D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		043269BC16892475003407D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043269BB16892475003407D4 /* metalworks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		043269BE16892475003407D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				043269BF16892475003407D4 /* UIKit.framework */,
+				043269C116892475003407D4 /* Foundation.framework */,
+				043269C316892475003407D4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		043269C516892475003407D4 /* metalworks */ = {
+			isa = PBXGroup;
+			children = (
+				043269CE16892475003407D4 /* AppDelegate.h */,
+				043269CF16892475003407D4 /* AppDelegate.m */,
+				043269D116892475003407D4 /* ViewController.h */,
+				043269D216892475003407D4 /* ViewController.m */,
+				043269D416892475003407D4 /* ViewController.xib */,
+				043269C616892475003407D4 /* Supporting Files */,
+			);
+			path = metalworks;
+			sourceTree = "<group>";
+		};
+		043269C616892475003407D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				043269C716892475003407D4 /* metalworks-Info.plist */,
+				043269C816892475003407D4 /* InfoPlist.strings */,
+				043269CB16892475003407D4 /* main.m */,
+				043269CD16892475003407D4 /* metalworks-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		043269BA16892475003407D4 /* metalworks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043269D916892475003407D4 /* Build configuration list for PBXNativeTarget "metalworks" */;
+			buildPhases = (
+				043269B716892475003407D4 /* Sources */,
+				043269B816892475003407D4 /* Frameworks */,
+				043269B916892475003407D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = metalworks;
+			productName = metalworks;
+			productReference = 043269BB16892475003407D4 /* metalworks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		043269B216892474003407D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 043269B516892475003407D4 /* Build configuration list for PBXProject "metalworks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 043269B016892474003407D4;
+			productRefGroup = 043269BC16892475003407D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				043269BA16892475003407D4 /* metalworks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		043269B916892475003407D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043269CA16892475003407D4 /* InfoPlist.strings in Resources */,
+				043269D616892475003407D4 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		043269B716892475003407D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043269CC16892475003407D4 /* main.m in Sources */,
+				043269D016892475003407D4 /* AppDelegate.m in Sources */,
+				043269D316892475003407D4 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		043269C816892475003407D4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043269C916892475003407D4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		043269D416892475003407D4 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043269D516892475003407D4 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		043269D716892475003407D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		043269D816892475003407D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		043269DA16892475003407D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "metalworks/metalworks-Prefix.pch";
+				INFOPLIST_FILE = "metalworks/metalworks-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		043269DB16892475003407D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "metalworks/metalworks-Prefix.pch";
+				INFOPLIST_FILE = "metalworks/metalworks-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043269B516892475003407D4 /* Build configuration list for PBXProject "metalworks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043269D716892475003407D4 /* Debug */,
+				043269D816892475003407D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043269D916892475003407D4 /* Build configuration list for PBXNativeTarget "metalworks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043269DA16892475003407D4 /* Debug */,
+				043269DB16892475003407D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 043269B216892474003407D4 /* Project object */;
+}
